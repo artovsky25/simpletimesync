@@ -1,3 +1,4 @@
+net start w32time
 :loop
 w32tm /resync /nowait
 timeout 300
